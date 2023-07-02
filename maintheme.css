@@ -1,0 +1,27 @@
+:root { 
+    --ecri: #f5f5dc;
+    --bootlegreen: #006a4e;
+    --bootlegreenalpha:#006a4ef1;
+    --gold: #CBB74D;
+    --mateblack: #28282B;
+}
+
+@font-face {
+    font-family: "Parisienne";
+    src: url("fonts/Parisienne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cinzel Decorative";
+    src: url("fonts/CinzelDecorative-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cinzel Decorative Bold";
+    src: url("fonts/CinzelDecorative-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url("fonts/Cinzel-Regular.ttf") format("truetype");
+}

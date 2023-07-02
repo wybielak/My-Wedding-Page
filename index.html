@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="slub madzi i dawida, Ślub Madzi i Dawida, slub madzia dawid, Ślub Madzia Dawid">
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="maintheme.css" />
+    <script src="https://kit.fontawesome.com/2981326418.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <title>Ślub Madzi i Dawida</title>
+</head>
+<body>
+    <div class="all-box">
+
+        <div class="navigation" id="navigation">
+            <ul>
+                <li><a href="#start" target="_self">Start</a></li>
+                <li><a href="#shedule" target="_self">Plan</a></li>
+                <li><a href="#route" target="_self">Dojazd</a></li>
+                <li><a href="#aboutus" target="_self">O nas</a></li>
+                <li><a href="#gallery" target="_self">Galeria</a></li>
+                <li><a href="#contact" target="_self">Kontakt</a></li>
+            </ul>
+        </div>
+
+        <div class="navigation_res" id="navigation_res">
+            <ul>
+                <li><a href="#start" target="_self" onclick="hide_menu()">Start</a></li>
+                <li><a href="#shedule" target="_self" onclick="hide_menu()">Plan</a></li>
+                <li><a href="#route" target="_self" onclick="hide_menu()">Dojazd</a></li>
+                <li><a href="#aboutus" target="_self" onclick="hide_menu()">O nas</a></li>
+                <li><a href="#gallery" target="_self" onclick="hide_menu()">Galeria</a></li>
+                <li><a href="#contact" target="_self" onclick="hide_menu()">Kontakt</a></li>
+                <li><span>Created by Pan Młody</span></li>
+            </ul>
+        </div>
+
+        <div class="navigation2">
+            <h1><i class="far fa-compass" onclick="menu_action()"></i></h1>
+            <ul>
+                <li><button onclick="menu_action()"><i id="res-nav-button" class="fas fa-ellipsis-h"></i></button></li>
+            </ul>
+        </div>
+
+        <div class="head" id="start">
+    
+            <div class="background-photo bg1 flex background-opacity">
+                <p>Witaj!</p>
+                <div class="date_counter_box flex">
+                    <p>Do ślubu zostało:</p>
+                    <p id="date_counter" class="date_counter"></p>
+                </div>
+            </div>
+
+            <div class="background-photo bg2 flex background-opacity"  id="shedule">
+                <div class="info_box flex">
+                    <p>Zapraszamy Cię</p>
+                    <h1>18 maja 2023</h1>
+
+                    <div class="info_in_box">
+                        <div class="slub_box flex">
+                            <i class="fa-regular fa-heart"></i>
+                            <h1>Ślub</h1>
+                            <p><span>Godzina:</span> 13:30</p> 
+                            <p><span>Miejsce:</span> Zbór Kościoła Wolnych Chrześcijan, Szeroka 54c, 44-246 Palowice</p> 
+                        </div>
+
+                        <div class="wesele_box flex">
+                            <i class="fa-solid fa-champagne-glasses"></i>
+                            <h1>Wesele</h1>
+                            <p><span>Godzina:</span> ±16:00</p>
+                            <p><span>Miejsce:</span> Restauracja Biały Dom, Karola Darwina 50, 44-177 Paniówki</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="main flex">
+
+            <div class="shedule flex">
+                <span class="section_title center">Plan dnia:</span>
+                <ul>
+                    <li><span>13:10</span> Czas na przybycie, zajmowanie miejsc</li>
+                    <li><span>13:30</span> Rozpoczęcie ceremonii</li>
+                    <li><span>14:30</span> Tort i ciasto, rozmowy</li>
+                    <li><span>15:30</span> Koniec części ślubnej, przenosimy się do restauracji</li>
+                    <li><span>16:00</span> Początek zabawy weselnej</li>
+                    <li><span>Czas bliżej nieokreślony</span> Koniec</li>
+                </ul>
+
+                <div class="additional-info-box">
+                    <p>Dodatkowe informacje:</p>
+                    <h2>Zrobiłeś/aś ładne zdjęcie?</h2>
+                    <p><a class="photo-disk" href="#" target="_blank">Dodaj je tutaj!</a></p>
+                    <img src="rebus.png" alt="">
+                    <p>Po naszym weselu będziemy się wprowadzać do świeżo wyremontowanego mieszkania, które będziemy musieli wyposażyć. Stąd przekreślona ikonka prezentu, ponieważ wolelibyśmy zamiast konkretnej rzeczy, dostać kopertę, a sumę z niej przeznaczyć na zakup wszystkich potrzebnych sprzętów do mieszkania.  Jest też przekreślona ikonka kwiatów, dlaczego? Kwiaty są piękne, ale obecnie dosyć drogie. Zaraz po ślubie prawdopodobnie wyjedziemy gdzieś na kilka dni, a pozostawione kwiaty mogłyby się szybko zepsuć, a druga rzecz, nawet nie będziemy mieć jeszcze wazonów! 😉</p>
+                    <p>Jeśli chcielibyście nam ofiarować coś zamiast kwiatów,  to naszym małym marzeniem jest, aby powolutku wyposażać kuchnię w porcelanową zastawę z Bolesławca. Jest ona piękna, natomiast jeden taki kubek kosztuje mniej więcej tyle co bukiet kwiatów.</p>
+               
+                </div>
+            </div>
+
+            <div class="background-photo route background-opacity" id="route">
+                <span class="section_title flex center">Mapy dojazdów</span>
+                <div class="church-route-box flex">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2558.888241663617!2d18.731014115718928!3d50.10709877942944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47114b2c343d6e97%3A0x4a6bc305a1021cd8!2sZb%C3%B3r%20Ko%C5%9Bcio%C5%82a%20Wolnych%20Chrze%C5%9Bcijan%20w%20Palowicach!5e0!3m2!1spl!2spl!4v1673655336055!5m2!1spl!2spl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><div class="route-box-desc">
+                        <p>Dojazd do kościoła</p>
+                        <p>Szeroka 54c, 44-246 Palowice</p>
+                    </div>
+                </div>
+
+                <div class="restaurant-route-box flex">
+                    <div class="route-box-desc">
+                        <p>Dojazd do restauracji</p>
+                        <p>Karola Darwina 50, 44-177 Paniówki</p>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2552.9404792370224!2d18.792088815889837!3d50.218332711943695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471134b423f80fbd%3A0xeb24192b983015ab!2sBia%C5%82y%20Dom%20-%20Restauracja%20Hotel%26SPA!5e0!3m2!1spl!2spl!4v1672775863775!5m2!1spl!2spl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="background-photo aboutus background-opacity flex" id="aboutus">
+                <span class="section_title flex center">Do kogo idziesz na ślub?</span>
+                <div class="she-about-box flex">
+                    <img src="img5.jpg" alt="">
+                    <div class="about-box-desc">
+                        <p class="pname">Madzia Porębska</p>
+                        <p>Coś o mnie? Robię tysiąc rzeczy na raz i nie lubię rutyny! Studiuję filologię hiszpańską, uczę się włoskiego, a pracuję jako lektorka angielskiego. Kocham podróże, a moim celem podróżniczym jest Ameryka Łacińska. Uwielbiam robić zdjęcia, obrabiać je, kocham muzykę i ludzi, dlatego razem z Dawidkiem jesteśmy zaangażowani w <b><a href="https://www.instagram.com/fusionsuszec" target="_blank">FUSION</a></b>. Jestem emerytowaną altowiolistką.</p>
+                    </div>
+                </div>
+
+                <div class="he-about-box flex">
+                    <div class="about-box-desc">
+                        <p class="pname">Dawid Nowakowski</p>
+                        <p>Malarz, stolarz, murarz, akrobata. Jestem jak pewnie wiecie studentem informatyki i lubię od czasu do czasu zrobić stronę internetową np. jak ta. Poza tym hobbistycznie czasami coś pospawam albo poskręcam z desek, a jeśli jesteś ciekawy co, to możesz to zobaczyć o tutaj <b><a href="https://www.instagram.com/wybielak_industries/" target=”_blank” >wybielak_industries</a></b>. W wolnych chwilach muzykuję na gitarze. </p>
+                    </div>
+                    <img src="img6.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="gallery flex" id="gallery">
+                <div class="image_grid">
+                    <img class="image_grid_col_2 image_grid_row_2" src="gallery/g1.jpg" alt="">
+                    <img src="gallery/g8.jpg" alt="">
+                    <img src="gallery/g7.jpg" alt="">
+                    <img src="gallery/g6.jpg" alt="">
+                    <img src="gallery/g4.jpg" alt="">
+
+                    <img src="gallery/g3.jpg" alt="">
+                    <img src="gallery/g9.jpg" alt="">
+                    <img class="image_grid_col_2 image_grid_row_2" src="gallery/g10.jpg" alt="">
+                    <img src="gallery/g2.jpg" alt="">
+                    <img src="gallery/g5.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="footer">
+            <div class="background-photo contact background-opacity flex" id="contact">
+                <h1 class="center" >Masz pytania? Odezwij się do kogoś z nich . . .</h1>
+                <div class="contact_list flex">
+                    <div class="person flex">
+                        <h2 class="center" >Pan Młody</h2>
+                        <img src="img6.jpg" alt="">
+                        <h3 class="center" >Dawid<br />Nowakowski</h3>
+                        <p class="center" >Nr. 000 000 000</p>
+                    </div>
+                    <div class="person flex">
+                        <h2 class="center" >Panna Młoda</h2>
+                        <img src="img5.jpg" alt="">
+                        <h3 class="center" >Magdalena<br />Porębska</h3>
+                        <p class="center" >Nr. 000 000 000</p>
+                    </div>
+                    <div class="person flex" style="display: none;">
+                        <h2 class="center" >Świadek</h2>
+                        <img src="img_tmp.jpg" alt="">
+                        <h3 class="center" >Lorem<br />Ipsum</h3>
+                        <p class="center" >Nr. 000 000 000</p>
+                    </div>
+                    <div class="person flex" style="display: none;">
+                        <h2 class="center" >Świadkowa</h2>
+                        <img src="img_tmp.jpg" alt="">
+                        <h3 class="center" >Lorem<br />Ipsum</h3>
+                        <p class="center" >Nr. 000 000 000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
